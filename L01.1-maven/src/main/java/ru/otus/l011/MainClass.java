@@ -2,8 +2,6 @@ package ru.otus.l011;
 
 import com.google.common.collect.Lists;
 
-import java.util.*;
-
 /**
  * \* @author AleKras on 28.10.2023
  * \* Description:
