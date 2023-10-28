@@ -5,7 +5,6 @@ package ru.otus.l011; /**
  */
 
 import com.google.common.collect.Lists;
-import java.util.*;
 
 /**
  * Created by tully.
