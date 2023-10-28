@@ -1,12 +1,13 @@
-package ru.otus.l011; /**
- * \* @author AleKras on 28.10.2023
- * \* Description:
- * \*
- */
+package ru.otus.l011;
 
 import com.google.common.collect.Lists;
 
+import java.util.*;
+
 /**
+ * \* @author AleKras on 28.10.2023
+ * \* Description:
+
  * Created by tully.
  *
  * Example for L01.1
@@ -27,7 +28,8 @@ import com.google.common.collect.Lists;
  * mvn assembly:single
  * mvn clean compile assembly:single
  */
-public class Main {
+public class MainClass {
+
 	private static final int MEASURE_COUNT = 1;
 
 	public static void main(String... args) {
@@ -40,9 +42,7 @@ public class Main {
 
 		List<Integer> result = new ArrayList<>();
 		Collections.shuffle((List<Integer>)example);
-		calcTime(() -> {
-			result.addAll(Lists.reverse((List<Integer>) example));
-		});
+		calcTime(() -> result.addAll(Lists.reverse((List<Integer>)example)));
 	}
 
 	private static void calcTime(Runnable runnable) {

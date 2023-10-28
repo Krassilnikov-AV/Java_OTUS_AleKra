@@ -4,19 +4,6 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-
-	<name>L01.1-maven</name>
-	<description>Code example for L01.1</description>
-
-	<developers>
-		<developer>
-			<name>tully</name>
-		</developer>
-	</developers>
-
-	<!-- All POMs extend the Super POM unless explicitly set -->
-	<!--parent>*</parent-->
-
 	<groupId>ru.otus</groupId>
 	<artifactId>L01.1-maven</artifactId>
 	<version>1.0-SNAPSHOT</version>
@@ -35,11 +22,6 @@
 			<artifactId>guava</artifactId>
 			<version>${com.google.guava.version}</version>
 		</dependency>
-		<dependency>
-			<groupId>com.google.collections</groupId>
-			<artifactId>google-collections</artifactId>
-			<version>1.0</version>
-		</dependency>
 	</dependencies>
 
 	<build>
@@ -52,7 +34,7 @@
 				<configuration>
 					<archive>
 						<manifest>
-							<mainClass>ru.otus.l011.Main</mainClass>
+							<mainClass>ru.otus.l011.MainClass</mainClass>
 						</manifest>
 					</archive>
 				</configuration>
@@ -77,7 +59,7 @@
 					</descriptorRefs>
 					<archive>
 						<manifest>
-							<mainClass>ru.otus.l011.Main</mainClass>
+							<mainClass>ru.otus.l011.MainClass</mainClass>
 						</manifest>
 					</archive>
 				</configuration>
