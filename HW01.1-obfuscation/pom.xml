@@ -8,13 +8,13 @@
 	<artifactId>HW01.1-obfuscation</artifactId>
 	<version>1.0-SNAPSHOT</version>
 
-	<name>HW01.1-obfuscation</name>
+	<name>L01.2-obfuscation</name>
 
-	<developers>
-		<developer>
-			<name>tully</name>
-		</developer>
-	</developers>
+	<!--<developers>-->
+		<!--<developer>-->
+			<!--<name>tully</name>-->
+		<!--</developer>-->
+	<!--</developers>-->
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -95,7 +95,6 @@
 								</libs>
 							</configuration>
 						</plugin>
-
 		</plugins>
 	</build>
 </project>
