@@ -24,7 +24,7 @@ public class Main {
 		System.out.println("pid: " + ManagementFactory.getRuntimeMXBean().getName());
 
 		int size = 20_000_000;
-
+//
 		System.out.println("Starting the loop");
 		while (true) {
 			System.gc();
